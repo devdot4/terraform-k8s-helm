@@ -18,5 +18,9 @@ module name {
   chart      = "nginx-ingress-controller"
   namespace  = "default"
   wait       = false
+  values     = [<<-EOF
+replicaCount = 3
+  EOF
+  ]
 }
 ```

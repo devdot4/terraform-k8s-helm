@@ -4,4 +4,5 @@ resource "helm_release" "this" {
   chart      = var.chart
   namespace  = var.namespace
   wait       = var.wait
+  values     = var.values
 }
