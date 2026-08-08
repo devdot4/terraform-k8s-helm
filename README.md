@@ -19,7 +19,7 @@ module name {
   namespace  = "default"
   wait       = false
   values     = [<<-EOF
-replicaCount: 3
+replicaCount: 1
   EOF
   ]
 }
